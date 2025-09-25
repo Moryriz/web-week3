@@ -1,0 +1,76 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+header, section, footer {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+/* Header Styles */
+header {
+    background-color: #4CAF50;
+    text-align: center;
+    padding: 40px;
+    border: 2px solid #388E3C;
+}
+
+/* Section Styles */
+.intro {
+    background-color: #e1f5fe;
+    border: 2px solid #0288d1;
+    margin-bottom: 20px;
+}
+
+.content {
+    background-color: #fff3e0;
+    border: 2px solid #f57c00;
+    margin-bottom: 20px;
+}
+
+.card {
+    background-color: #c8e6c9;
+    border: 2px solid #388e3c;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+/* The Box Model Experiment */
+section, .card {
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin: 15px 0;
+}
+
+/* Button Styles */
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
